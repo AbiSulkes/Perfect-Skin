@@ -18,12 +18,11 @@
             <li><a href="#">Productos</a></li>
             <li><a href="#">Contacto</a></li>
         </nav>
-        <form action="">
+        <form>
             <button type="button">Iniciar sesión</button>
             <button type="button">Registrarse</button>
         </form>
     </header>
-
     <!--Sección Hero/Portada-->
     <main>
         <picture>
@@ -38,20 +37,25 @@
                     alt="icono flecha"></h3>
             <ul>
                 <li><img src="https://abisulkes.alwaysdata.net/producto2.png" alt="imagen de crema corporal: Body Mask">
-                    <p>Línea Corporal</p>
+                    <p>
+                        Línea Corporal
+                    </p>
                 </li>
                 <li><img src="https://abisulkes.alwaysdata.net/producto3.png"
                         alt="imagen de crema facial: Sun Cream, SPF 50">
-                    <p>Línea Facial</p>
+                    <p>
+                        Línea Facial
+                    </p>
                 </li>
                 <li><img src="https://abisulkes.alwaysdata.net/producto1.png"
                         alt="imagen de Fragancia: Aqua eau de perfume">
-                    <p>Fragancias</p>
+                    <p>
+                        Fragancias
+                    </p>
                 </li>
             </ul>
         </article>
     </main>
-
     <!--Sección About Us/Sobre Nosotros-->
     <article>
         <header>
@@ -59,27 +63,24 @@
         </header>
         <picture><img src="https://abisulkes.alwaysdata.net/imagenSobreNosotros.png"
                 alt="imagen portada en la seccion de *sobre nosotros*"></picture>
-        <P>En <b>Perfect Skin</b>, entendemos que cada piel es única y merece un cuidado especial. Por eso, nos
-            dedicamos a
-            ofrecer productos de alta calidad que hidratan, nutren y revitalizan tu piel, dejándola suave y radiante.
-
-            Nuestra misión es ayudarte a descubrir la belleza natural de tu piel a través de fórmulas innovadoras y
-            eficaces. Creemos que el cuidado de la piel no es solo una rutina, sino un ritual de amor propio que te
-            conecta con tu mejor versión.
-
-            Somos un equipo apasionado por la belleza y el bienestar, comprometido con la excelencia y la satisfacción
-            de nuestros clientes.
-        </P>
+        <p>
+            En <b>Perfect Skin</b>, entendemos que cada piel es única y merece un cuidado especial. Por eso, nos
+            dedicamos a ofrecer productos de alta calidad que hidratan, nutren y revitalizan tu piel, dejándola suave y
+            radiante. Nuestra misión es ayudarte a descubrir la belleza natural de tu piel a través de fórmulas
+            innovadoras y eficaces. Creemos que el cuidado de la piel no es solo una rutina, sino un ritual de amor
+            propio que te conecta con tu mejor versión. Somos un equipo apasionado por la belleza y el bienestar,
+            comprometido con la excelencia y la satisfacción de nuestros clientes.
+        </p>
         <a href="#more">Leer más</a>
     </article>
-
     <!--Sección Productos-->
     <article>
         <header>
             <h2>Productos</h2>
-            <p>Línea Premium</p>
+            <p>
+                Línea Premium
+            </p>
         </header>
-
         <section>
             <picture>
                 <a href="#">
@@ -88,35 +89,78 @@
                 <img src="https://abisulkes.alwaysdata.net/producto1.png" alt="Aqua eau de perfume">
             </picture>
         </section>
-
         <section>
             <header>
                 <h3>Aqua eau de perfume</h3>
             </header>
-            <p>Con notas marinas y un toque de cítricos, este perfume te transporta a una brisa costera, envolviéndote
-                en una sensación de frescura y pureza.</p>
+            <p>
+                Con notas marinas y un toque de cítricos, este perfume te transporta a una brisa costera, envolviéndote
+                en una sensación de frescura y pureza.
+            </p>
             <span>$27.000</span>
             <button type="button">Comprar</button>
         </section>
     </article>
-
     <!--Sección Contacto-->
     <article>
         <section>
             <header>
                 <h2>Contacto</h2>
-                <p>En Perfect Skin, estamos aquí para ayudarte.
-                    Si tienes alguna consulta, sugerencia
-                    o necesitas asistencia, no dudes en ponerte
-                    en contacto con nosotros.</p>
+                <p>
+                    En Perfect Skin, estamos aquí para ayudarte. Si tienes alguna consulta, sugerencia o necesitas
+                    asistencia, no dudes en ponerte en contacto con nosotros.
+                </p>
             </header>
-
+            <div>
+                <h4><img src="./icon/mail - contacto.svg" alt="icono de email">Dirección de Email</h4>
+                <p>
+                    contacto@perfectSkin.com
+                </p>
+            </div>
+            <div>
+                <h4><img src="./icon/telefono - contacto.svg" alt="icono de telefono">Número de Teléfono</h4>
+                <p>
+                    +54 11 1234 5678 <br>
+                    <span>Lunes a Viernes de 9:00 a 18:00 hs.</span>
+                </p>
+            </div>
+            <div>
+                <h4><img src="./icon/ubicacion - contacto.svg" alt="icono de ubicacion">Dirección</h4>
+                <p>
+                    Av. del Libertador 6500, Núñez, Buenos Aires, Capital Federal.
+                </p>
+            </div>
+            <picture>
+                <img src="./icon/facebook - contacto.svg" alt="icono de Facebook">
+                <img src="./icon/Instagram - contacto.svg" alt="icono de Instagram">
+                <img src="./icon/x - contacto.svg" alt="icono de X">
+            </picture>
         </section>
-        <section>
-
-        </section>
+        <form>
+            <header>
+                <h2>Formulario de Contacto</h2>
+                <p>
+                    Podés comunicarte con nosotros en cualquier momento a través de
+                    <span>contacto@perfectSkin.com</span>
+                </p>
+            </header>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </article>
     <!--Footer-->
+    <picture><img src="https://abisulkes.alwaysdata.net/logoPrincipalFooter.svg" alt=""></picture>
 </body>
 
 </html>
