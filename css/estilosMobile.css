@@ -60,13 +60,16 @@ body {
         padding: 1rem;
         background-color: var(--texto-color);
         border-radius: 5px;
-        opacity: 0.9;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
 
     .header__nav-link {
         color: var(--fondo-color);
-        font-size: 16px;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem;
     }
 
     .header__nav--register {
@@ -74,5 +77,54 @@ body {
         color: var(--texto-color);
         border-radius: 20px;
         padding: 0.5rem 1rem;
+    }
+
+    /*********** Sección Hero/Portada **********/
+    .hero {
+        width: 100%;
+    }
+
+    .hero__contenedor {
+        width: 60%;
+        padding: 1rem;
+    }
+
+    .hero__portada-mobile {
+        background-image: url("https://abisulkes.alwaysdata.net/imagenPortada.png");
+        background-position: cover;
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+
+    .hero__producto-item2 {
+        display: none;
+    }
+
+    /*titulo*/
+    .hero__titulo {
+        font-size: 28px;
+    }
+
+    /*articulo*/
+    .hero__articulo {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.6px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+        padding: 1rem;
+    }
+
+    .hero__subtitulo {
+        font-size: 14px;
+        display: flex;
+    }
+
+    .portada__subtitulo-icono {
+        width: 50px;
+    }
+
+    .hero__producto-imagen {
+        width: 150px;
     }
 }
