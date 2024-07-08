@@ -12,24 +12,39 @@
 
 <body>
     <!--Sección Navbar-->
-    <header>
-        <picture><img src="https://abisulkes.alwaysdata.net/logoPrincipal.svg" alt="Logo Perfect Skin"></picture>
-        <nav>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
+    <header class="header__header">
+        <picture class="header__logo">
+            <img class="header__logo-img" src="https://abisulkes.alwaysdata.net/logoPrincipal.svg"
+                alt="Logo Perfect Skin">
+        </picture>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"></li><a href="#">Inicio</a></li>
+                <li class="header__nav-item"></li><a href="#">Sobre nosotros</a></li>
+                <li class="header__nav-item"></li><a href="#">Productos</a></li>
+                <li class="header__nav-item"></li><a href="#">Contacto</a></li>
+            </ul>
         </nav>
-        <form>
-            <button type="button">Iniciar sesión</button>
-            <button type="button">Registrarse</button>
+        <form class="header__form">
+            <button class="header__button header__button--login" type="button">Iniciar sesión</button>
+            <button class="header__button header__button--register" type="button">Registrarse</button>
         </form>
+
+        <form class="header__form--mobile">
+            <button class="header__button--mobile" type="button" popovertarget="btn-menu" popovertargetaction="toggle"><img src="./icon/menu - nabvar.svg"
+                    alt="Menú nabvar"></button>
+        </form>
+        <nav id="btn-menu" popover>
+            <a  class="header__nav-link" href="#">Iniciar sesión</a><br><br>
+            <a  class="header__nav-link header__nav--register" href="#">Registrarse</a>
+        </nav>
     </header>
+
     <!--Sección Hero/Portada-->
     <main>
-        <picture>
+        <!-- <picture>
             <img src="https://abisulkes.alwaysdata.net/imagenPortada.png" alt="Portada principal">
-        </picture>
+        </picture> -->
         <header>
             <h1>Sabemos que tu piel es única</h1>
             <a href="#productos">Encontrá tu Fórmula. <img src="./icon/flecha - derecha.svg" alt="icono flecha"></a>
