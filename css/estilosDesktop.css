@@ -1,3 +1,6 @@
+/*********** Hojas de estilo **********/
+@import url('./sobreNosotrosDesktop.css');
+
 @media (min-width:992px) {
 
     /*********** Sección Navbar **********/
@@ -85,7 +88,6 @@
     }
 
     /*articulo*/
-
     .hero__articulo {
         width:24%;
         height: auto;
@@ -116,7 +118,7 @@
     }
 
     .portada__subtitulo-icono {
-        width: 40px;
+        width:2rem;
     }
 
 }

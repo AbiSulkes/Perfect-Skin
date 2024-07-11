@@ -1,0 +1,36 @@
+@media (min-width:992px) {
+
+    /*********** Sección About Us/Sobre Nosotros **********/
+    .sobre-nosotros__articulo {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .sobre-nosotros__contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-nosotros__contenedor2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-nosotros__contenedor1,
+    .sobre-nosotros__contenedor2 {
+        max-width: 800px;
+        flex: 1;
+    }
+
+    .sobre-nosotros__titulo{
+        text-align:left;
+    }
+
+    .sobre-nosotros__enlace{
+        margin-top: 1rem; 
+        align-self:flex-start;
+        margin: 0;
+    }
+}
