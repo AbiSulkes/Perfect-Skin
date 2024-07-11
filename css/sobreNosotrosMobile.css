@@ -1,0 +1,32 @@
+@media (min-width:320px){
+    /*********** Sección About Us/Sobre Nosotros **********/
+    .sobre-nosotros__articulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+
+    .sobre-nosotros__titulo{
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .sobre-nosotros__imagen-contenedor{
+        margin-bottom: 1rem;
+    }
+
+    .sobre-nosotros__saltoDeLinea{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sobre-nosotros__enlace{
+        border: 1px solid var(--texto-color);
+        padding: 8px 24px;
+        border-radius: 20px;
+        color:var(--texto-color);
+    }
+}
