@@ -31,7 +31,7 @@
     .header__nav-list {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 20px;
     }
 
     .header__nav-list a {
