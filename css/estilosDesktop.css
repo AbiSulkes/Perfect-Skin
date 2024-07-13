@@ -1,5 +1,6 @@
 /*********** Hojas de estilo **********/
 @import url('./sobreNosotrosDesktop.css');
+@import url('./productosDesktop.css');
 
 @media (min-width:992px) {
 
