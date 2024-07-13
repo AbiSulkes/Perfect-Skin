@@ -3,13 +3,15 @@
 
 /*********** Hojas de estilo **********/
 @import url('./sobreNosotrosMobile.css');
+@import url('./productosMobile.css');
 
 :root {
     /*Paleta de colores*/
     --fondo-color: #FFFFFE;
-    --texto-color: #000105;
-    --destaque-color: #1A598C;
     --fondoSitio-color: #EDF7F9;
+    --fondoProducto-color: #D0E9EF;
+    --destaque-color: #1A598C;
+    --texto-color: #000105;
 }
 
 * {
@@ -174,7 +176,8 @@ body {
     }
 
     .hero__producto-imagen {
-        width: 100px;
+        max-width: 100%;
+        height: auto;
     }
 
     .hero__producto-descripcion {

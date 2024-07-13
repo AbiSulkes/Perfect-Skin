@@ -109,7 +109,8 @@
     }
 
     .hero__producto-imagen {
-        width: 100px;
+        max-width: 100%;
+        height: auto;
         padding: 0.5rem;
     }
 
