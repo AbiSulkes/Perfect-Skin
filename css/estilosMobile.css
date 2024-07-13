@@ -2,8 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 
 /*********** Hojas de estilo **********/
+@import url('./portadaMobile.css');
 @import url('./sobreNosotrosMobile.css');
 @import url('./productosMobile.css');
+@import url('./contactoMobile.css');
 
 :root {
     /*Paleta de colores*/
@@ -87,109 +89,4 @@ body {
         border-radius: 20px;
         padding: 0.5rem 1rem;
     }
-
-    /*********** Sección Hero/Portada **********/
-    .hero {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .hero__contenedor {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: stretch;
-    }
-
-    /*Imagen de fondo*/
-    .hero__portada {
-        background-image: url("https://abisulkes.alwaysdata.net/foto%20-%20portada%20-%201.jpg");
-        box-sizing: border-box;
-        background-position-x: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: auto;
-        width: 100%;
-    }
-
-    /*titulo y bajada*/
-
-    .hero__cabecera {
-        display: flex;
-        margin-bottom: 1rem;
-    }
-
-    .hero__titulo {
-        font-size: 32px;
-        width: 79%;
-        margin-bottom: 1rem;
-    }
-
-    .hero__titulo--destaque {
-        color: var(--fondo-color);
-        text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-    }
-
-    .hero__cta {
-        color: var(--destaque-color);
-        display: flex;
-        flex-direction: row;
-        font-size: 14px;
-        align-content: center;
-        flex-wrap: wrap;
-        gap: 8px;
-        font-weight: 500;
-    }
-
-    .hero__cta-icono {
-        width: 18px;
-    }
-
-    /*articulo*/
-
-    .hero__producto-item:nth-child(2),
-    .hero__producto-item:nth-child(3) {
-        display: none;
-    }
-
-    .hero__articulo {
-        background: rgba(255, 255, 255, 0.15);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5.6px);
-        border: 1px solid rgba(255, 255, 255, 0.29);
-        padding: 0.5rem;
-       width: 50%;
-    }
-
-    .hero__subtitulo {
-        font-size: 14px;
-        display: flex;
-    }
-
-    .portada__subtitulo-icono {
-        width: 1.5rem;
-    }
-
-    .hero__producto-imagen {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .hero__producto-descripcion {
-        font-size: 14px;
-    }
-
-    .hero__producto-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0.5rem;
-    }
-
 }

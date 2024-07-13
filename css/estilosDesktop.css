@@ -1,4 +1,5 @@
 /*********** Hojas de estilo **********/
+@import url('./portadaDesktop.css');
 @import url('./sobreNosotrosDesktop.css');
 @import url('./productosDesktop.css');
 
@@ -58,69 +59,6 @@
         color: var(--fondo-color);
         padding: 0.5rem 1rem;
         border-radius: 24px;
-    }
-
-    /*********** Sección Hero/Portada **********/
-    /*Imagen de fondo*/
-    .hero__portada {
-        height: 70vh;
-    }
-
-    /*titulo y bajada*/
-    .hero__contenedor {
-        height: 70vh;
-        padding: 1rem;
-        justify-content: center;
-    }
-
-    .hero__titulo {
-        font-size: 59px;
-        line-height: 1.2;
-        width: 544px;
-    }
-
-    .hero__cta {
-        display: flex;
-        justify-content: end;
-        transform: translateY(-28px);
-        gap: 5px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    /*articulo*/
-    .hero__articulo {
-        width:24%;
-        height: auto;
-        overflow: hidden;
-    }
-
-    .hero__lista-productos {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .hero__producto-item:nth-child(1),
-    .hero__producto-item:nth-child(2),
-    .hero__producto-item:nth-child(3) {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        width: calc(100% - 1rem);
-    }
-
-    .hero__producto-imagen {
-        max-width: 100%;
-        height: auto;
-        padding: 0.5rem;
-    }
-
-    .hero__subtitulo {
-        font-size: 16px;
-    }
-
-    .portada__subtitulo-icono {
-        width:2rem;
     }
 
 }
