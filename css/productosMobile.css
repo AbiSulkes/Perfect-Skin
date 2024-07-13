@@ -25,7 +25,7 @@
         margin-top: 1rem;
         background-color: var(--fondo-color);
         border-radius: 20px;
-        padding: 1rem 1.5rem;
+        padding: 1.5rem;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
 
@@ -44,7 +44,7 @@
     }
 
     .productos__icono-flecha {
-        width: 1.5rem;
+        width: 2rem;
         position: absolute;
         top: 1rem;
         right: 1rem;
@@ -57,7 +57,7 @@
 
     .productos__nombre {
         padding: 0.5rem 0;
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .productos__contenedor-compra {
