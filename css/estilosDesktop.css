@@ -2,6 +2,8 @@
 @import url('./portadaDesktop.css');
 @import url('./sobreNosotrosDesktop.css');
 @import url('./productosDesktop.css');
+@import url('./contactoDesktop.css');
+@import url('./footerDesktop.css');
 
 @media (min-width:992px) {
 

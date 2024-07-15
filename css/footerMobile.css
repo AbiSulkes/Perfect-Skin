@@ -1,0 +1,12 @@
+@media (min-width:320px) {
+    .pie-de-pagina__logo-contenedor {
+        display: flex;
+        justify-content: center;
+        background-color: var(--fondo-color);
+        padding: 1rem;
+    }
+
+    .pie-de-pagina__logo {
+        width: 160px;
+    }
+}
