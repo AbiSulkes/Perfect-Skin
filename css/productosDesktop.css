@@ -1,4 +1,5 @@
 @media (min-width: 992px) {
+         /*********** Sección Productos **********/
     .productos__articulo {
         display: flex;
         flex-wrap: wrap;

@@ -43,6 +43,10 @@
         font-size: 16px;
     }
 
+    .header__nav-list a:hover {
+        color: var(--destaque-color);
+    }
+
     .header__form {
         display: flex;
         flex-direction: row;
@@ -56,11 +60,20 @@
         cursor: pointer;
     }
 
+    .header__button--login:hover {
+        color: var(--destaque-color);
+    }
+
     .header__button--register {
         background-color: var(--texto-color);
         color: var(--fondo-color);
         padding: 0.5rem 1rem;
         border-radius: 24px;
+    }
+
+    .header__button--register:hover {
+        background-color: var(--destaque-color);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
 
 }

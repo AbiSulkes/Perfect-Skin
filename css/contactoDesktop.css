@@ -1,0 +1,66 @@
+@media (min-width:992px) {
+
+    /*********** Sección Contacto **********/
+    .contacto__articulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2rem 0 0 0;
+    }
+
+    .contacto__info {
+        flex: 1;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .contacto__cabecera,
+    .contacto__items {
+        width: 400px;
+    }
+
+    .contacto__item-titulo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 0.2rem;
+    }
+
+    .contacto__item-horario {
+        font-weight: 600;
+    }
+
+    .contacto__icono {
+        display: flex;
+        width: 1.5rem;
+    }
+
+    .contacto__items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .contacto__item {
+        margin: 1rem 0;
+        max-width: none;
+    }
+
+    /*formulario*/
+    .contacto__formulario {
+        flex: 2;
+    }
+
+    .contacto__formulario-cabecera {
+        width: 500px;
+    }
+
+    .contacto__formulario-campo {
+        width: 500px;
+    }
+
+    .contacto__formulario-boton {
+        margin-top: 1rem;
+    }
+}

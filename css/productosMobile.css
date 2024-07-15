@@ -1,4 +1,5 @@
 @media (min-width: 320px) {
+             /*********** Sección Productos **********/
     .productos {
         display: flex;
         flex-direction: column;
