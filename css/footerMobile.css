@@ -3,7 +3,7 @@
         display: flex;
         justify-content: center;
         background-color: var(--fondo-color);
-        padding: 1rem;
+        padding: 2rem 1rem;
     }
 
     .pie-de-pagina__logo {

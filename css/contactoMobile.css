@@ -23,7 +23,7 @@
     }
 
     .contacto__descripcion {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .contacto__item {
@@ -36,7 +36,7 @@
     }
 
     .contacto__item-descripcion {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .contacto__redes-sociales {
@@ -51,5 +51,72 @@
     }
 
     /*formulario*/
+    .contacto__formulario {
+        background-image: url("https://abisulkes.alwaysdata.net/imagenContacto.png");
+        box-sizing: border-box;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+    }
 
+    .contacto__formulario-cabecera {
+        text-align: center;
+    }
+
+    .contacto__formulario-titulo {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 0.2rem;
+    }
+
+    .contacto__formulario-descripcion {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .contacto__formulario-email {
+        color: var(--destaque-color);
+        font-weight: 600;
+    }
+
+    /*Campos de formulario*/
+    .contacto__formulario-campo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(100% - 1rem);
+        margin-bottom: 1rem;
+    }
+
+    .contacto__formulario-etiqueta {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .contacto__formulario-entrada {
+        font-size: 14px;
+        font-family: 'Satoshi', sans-serif;
+        padding: 0.5rem;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.6px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+    }
+
+    .contacto__formulario-boton{
+        background-color: var(--texto-color);
+        padding: 0.5rem 2rem;
+        border-radius: 20px;
+        color: var(--fondo-color);
+        font-size: 16px;
+    }
 }
