@@ -63,4 +63,8 @@
     .contacto__formulario-boton {
         margin-top: 1rem;
     }
+
+    .contacto__formulario-boton:hover{
+        background-color: var(--destaque-color);
+    }
 }

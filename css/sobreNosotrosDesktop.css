@@ -32,4 +32,8 @@
         align-self:flex-start;
         margin: 0;
     }
+
+    .sobre-nosotros__enlace:hover{
+        background-color: var(--fondoProducto-color);
+    }
 }

@@ -14,6 +14,7 @@
 
     /*Imagen de fondo*/
     .hero__portada {
+        position: relative;
         background-image: url("https://abisulkes.alwaysdata.net/foto%20-%20portada%20-%201.jpg");
         box-sizing: border-box;
         background-position-x: center;

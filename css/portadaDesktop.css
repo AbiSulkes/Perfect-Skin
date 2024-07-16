@@ -1,10 +1,12 @@
-@media (min-width:992px){
-    
+@media (min-width:992px) {
+
     /*********** Sección Hero/Portada **********/
     /*Imagen de fondo*/
     .hero__portada {
         height: 70vh;
+        animation:fade-in-right .6s cubic-bezier(.39,.575,.565,1.000) backwards;
     }
+    @keyframes fade-in-right{0%{transform:translateX(50px);opacity:0}100%{transform:translateX(0);opacity:1}}
 
     /*titulo y bajada*/
     .hero__contenedor {
@@ -19,6 +21,12 @@
         width: 544px;
     }
 
+    .hero__titulo:hover{
+        animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
+    }
+
+    @keyframes fade-in-left{0%{transform:translateX(-50px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
     .hero__cta {
         display: flex;
         justify-content: end;
@@ -28,9 +36,10 @@
         font-weight: 600;
     }
 
+
     /*articulo*/
     .hero__articulo {
-        width:24%;
+        width: 24%;
         height: auto;
         overflow: hidden;
     }
@@ -55,11 +64,31 @@
         padding: 0.5rem;
     }
 
+    .hero__producto-imagen:hover {
+        animation: scale-up-bottom .4s cubic-bezier(.39, .575, .565, 1.000) both;
+    }
+
+    @keyframes scale-up-bottom {
+        0% {
+            transform: scale(.5);
+            transform-origin: 50% 100%
+        }
+
+        100% {
+            transform: scale(1);
+            transform-origin: 50% 100%
+        }
+    }
+
     .hero__subtitulo {
         font-size: 16px;
     }
 
+    .hero__producto-descripcion:hover{
+        color: var(--destaque-color);
+    }
+
     .portada__subtitulo-icono {
-        width:2rem;
+        width: 2rem;
     }
 }
