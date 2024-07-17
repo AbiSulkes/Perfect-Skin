@@ -1,4 +1,5 @@
 @media (min-width:992px) {
+
     /*********** Sección About Us/Sobre Nosotros **********/
     .sobre-nosotros__articulo {
         display: flex;
@@ -23,17 +24,18 @@
         flex: 1;
     }
 
-    .sobre-nosotros__titulo{
-        text-align:left;
+    .sobre-nosotros__titulo {
+        text-align: left;
     }
 
-    .sobre-nosotros__enlace{
-        margin-top: 1rem; 
-        align-self:flex-start;
+    .sobre-nosotros__enlace {
+        margin-top: 1rem;
+        align-self: flex-start;
         margin: 0;
     }
 
-    .sobre-nosotros__enlace:hover{
+    .sobre-nosotros__enlace:hover {
         background-color: var(--fondoProducto-color);
     }
+
 }

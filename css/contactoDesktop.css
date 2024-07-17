@@ -64,7 +64,14 @@
         margin-top: 1rem;
     }
 
-    .contacto__formulario-boton:hover{
+    .contacto__formulario-boton:hover {
         background-color: var(--destaque-color);
     }
+
+    .contacto__red-social-icono {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+    }
+
 }

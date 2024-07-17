@@ -20,15 +20,19 @@
         </picture>
         <nav class="header__nav">
             <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#">Inicio</a></li>
-                <li class="header__nav-item"><a href="#">Sobre nosotros</a></li>
-                <li class="header__nav-item"><a href="#">Productos</a></li>
-                <li class="header__nav-item"><a href="#">Contacto</a></li>
+                <li class="header__nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="header__nav-item"><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                <li class="header__nav-item"><a href="#productos">Productos</a></li>
+                <li class="header__nav-item"><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         <form class="header__form">
-            <button class="header__button header__button--login" type="button">Iniciar sesión</button>
-            <button class="header__button header__button--register" type="button">Registrarse</button>
+            <a href="./inicioSesion.html">
+                <button class="header__button header__button--login" type="button">Iniciar sesión</button>
+            </a>
+            <a href="./registro.html">
+                <button class="header__button header__button--register" type="button">Registrarse</button>
+            </a>
         </form>
 
         <form class="header__form--mobile">
@@ -46,14 +50,17 @@
         <section class="hero__contenedor">
 
             <header class="hero__cabecera">
-                <h1 class="hero__titulo">Sabemos que tu piel es <span class="hero__titulo--destaque">única</span> 
-                    <a class="hero__cta" href="#productos">Encontrá tu Fórmula. <img class="hero__cta-icono"
-                            src="./icon/flecha - derecha.svg" alt="icono flecha"></a></h1>
+                <h1 class="hero__titulo">Sabemos que tu piel es <span class="hero__titulo--destaque">única</span>
+                    <a href="#productos">
+                        <img class="portada__subtitulo-icono" src="./icon/iconoFlecha.svg" alt="icono flecha">
+                    </a>
+                </h1>
             </header>
+            
+
 
             <article class="hero__articulo">
-                <h3 class="hero__subtitulo">Transformá tu rutina con nuestra línea de productos.
-                    <img class="portada__subtitulo-icono" src="./icon/iconoFlecha.svg" alt="icono flecha"></h3>
+                <h3 class="hero__subtitulo">Transformá tu rutina con nuestra línea de productos</h3>
 
                 <ul class="hero__lista-productos">
                     <li class="hero__producto-item">
@@ -78,7 +85,7 @@
     </main>
 
     <!--Sección Sobre Nosotros-->
-    <section class="sobre-nosotros">
+    <section id="sobre-nosotros" class="sobre-nosotros">
         <article class="sobre-nosotros__articulo">
             <div class="sobre-nosotros__contenedor">
                 <header class="sobre-nosotros__cabecera">
@@ -103,12 +110,12 @@
                 </p>
                 <a class="sobre-nosotros__enlace" href="#more">Leer más</a>
             </div>
+            
         </article>
     </section>
 
-
     <!--Sección Productos-->
-    <section class="productos">
+    <section id="productos" class="productos">
         <header class="productos__cabecera">
             <h2 class="productos__titulo">Productos</h2>
             <p class="productos__linea-premium">Línea Premium</p>
@@ -282,7 +289,7 @@
 
 
     <!--Sección Contacto-->
-    <section class="contacto">
+    <section id="contacto" class="contacto">
         <article class="contacto__articulo">
             <section class="contacto__info">
                 <header class="contacto__cabecera">
@@ -369,4 +376,5 @@
         </picture>
     </footer>
 </body>
+
 </html>

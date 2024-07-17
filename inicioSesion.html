@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Skin</title>
+    <link rel="shortcut icon" href="https://abisulkes.alwaysdata.net/imagenLogoSitio.png" type="image/x-icon">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="./css/estilosMobile.css">
+    <link rel="stylesheet" href="./css/estilosDesktop.css">
+    <link rel="stylesheet" href="./css/inicioSesionDesktop.css">
+</head>
+
+<body>
+    <!--Sección Navbar-->
+    <header class="header__header">
+        <picture class="header__logo">
+            <a href="./index.html"> <img class="header__logo-img"
+                    src="https://abisulkes.alwaysdata.net/logoPrincipal.svg" alt="Logo Perfect Skin"></a>
+        </picture>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="header__nav-item"><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                <li class="header__nav-item"><a href="#productos">Productos</a></li>
+                <li class="header__nav-item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <form class="header__form">
+            <button class="header__button header__button--login" type="button">Iniciar sesión</button>
+            <a href="./registro.html">
+                <button class="header__button header__button--register" type="button">Registrarse</button>
+            </a>
+        </form>
+    </header>
+
+    <!--Sección Inicio sesión-->
+    <main class="login">
+        <form class="login__formulario">
+            <header class="login__formulario-cabecera">
+                <h2 class="login__formulario-titulo">Inicio sesión</h2>
+                <p class="login__formulario-descripcion">
+                    Logueate y dejate llevar por la frescura de nuestras fórmulas frutales
+                </p>
+            </header>
+            <nav class="login__nav">
+                <a href="./inicioSesion.html">INICIAR SESIÓN</a>
+                <a href="./registro.html">REGISTRARSE</a>
+            </nav>
+
+            <div class="login__formulario-campo">
+                <label class="login__formulario-etiqueta" for="email">Email</label>
+                <input class="login__formulario-entrada" type="email" id="email" name="email"
+                    placeholder="ejemplo@gamil.com" required>
+            </div>
+            <div class="login__formulario-campo">
+                <label class="login__formulario-etiqueta" for="password">Contraseña</label>
+                <input class="login__formulario-entrada" type="password" id="password" name="password"
+                    placeholder="escribí tu contraseña" required>
+            </div>
+            <button class="login__formulario-boton" type="button">Iniciar sesión</button>
+        </form>
+    </main>
+    <!--Footer-->
+    <footer class="pie-de-pagina">
+        <picture class="pie-de-pagina__logo-contenedor">
+            <img class="pie-de-pagina__logo" src="https://abisulkes.alwaysdata.net/logoPrincipalFooter.svg"
+                alt="Logo del pie de página">
+        </picture>
+    </footer>
+</body>
+
+</html>
