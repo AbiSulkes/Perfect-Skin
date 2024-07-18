@@ -1,0 +1,131 @@
+@media (min-width:320px){
+      /*Fondo - animación*/
+      .registro {
+        animation: color-change-4x 8s ease-in-out infinite forwards;
+        background-image: url(https://abisulkes.alwaysdata.net/fondo10.jpg);
+        mask-image: linear-gradient(white 80%, transparent);
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    @keyframes color-change-4x {
+        0% {
+            background-image: url(https://abisulkes.alwaysdata.net/fondo10.jpg);
+        }
+
+        25% {
+            background-image: url(https://abisulkes.alwaysdata.net/fondo8.jpg);
+        }
+
+        50% {
+            background-image: url(https://abisulkes.alwaysdata.net/fondo9.jpg);
+        }
+
+        75% {
+            background-image: url(https://abisulkes.alwaysdata.net/fondo7.jpg);
+        }
+
+        100% {
+            background-image: url(https://abisulkes.alwaysdata.net/fondo10.jpg);
+        }
+    }
+
+
+    /*Formulario Registro*/
+    .registro__formulario {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.6px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+        padding: 1rem;
+        max-width: 800px;
+    }
+
+    .registro__formulario-titulo {
+        text-align: center;
+        color: var(--texto-color);
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 0.2rem;
+        animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;
+    }
+    @keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+    .registro__formulario-descripcion {
+        font-size: 16px;
+        font-style: oblique;
+        margin-bottom: 1rem;
+        color: var(--fondoProducto-color);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+        padding-bottom: 0.5rem;
+        animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;
+    }
+
+    .registro__nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    .registro__nav a {
+        color: var(--fondo-color);
+        margin: 1rem 0;
+    }
+
+    .registro__nav a:last-child{
+        color: var(--fondoProducto-color)
+    }
+
+    .registro__formulario-campo {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .registro__formulario-etiqueta {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        color: var(--fondo-color);
+    }
+
+    .registro__formulario-entrada {
+        font-size: 14px;
+        font-family: 'Satoshi', sans-serif;
+        padding: 0.5rem;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.6px);
+        border: 1px solid rgba(255, 255, 255, 0.29);
+    }
+
+    .registro__formulario-entrada::placeholder{
+        color: var(--fondoProducto-color);
+    }
+
+    .registro__formulario-boton {
+        background-color: var(--texto-color);
+        padding: 0.5rem 2rem;
+        border-radius: 20px;
+        color: var(--fondo-color);
+        font-size: 16px;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+    }
+
+    .registro__formulario-boton:hover {
+        background-color: var(--destaque-color);
+    }
+
+}
