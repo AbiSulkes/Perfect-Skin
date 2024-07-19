@@ -14,28 +14,41 @@
 </head>
 
 <body>
-    <!--Sección Navbar-->
-    <header class="header__header">
-        <picture class="header__logo">
-            <a href="./index.html"> <img class="header__logo-img"
-                    src="https://abisulkes.alwaysdata.net/logoPrincipal.svg" alt="Logo Perfect Skin"></a>
-        </picture>
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="./index.html">Inicio</a></li>
-                <li class="header__nav-item"><a href="./index.html#sobre-nosotros">Sobre nosotros</a></li>
-                <li class="header__nav-item"><a href="./index.html#productos">Productos</a></li>
-                <li class="header__nav-item"><a href="./index.html#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <form class="header__form">
+  <!--Sección Navbar-->
+  <header id="inicio" class="header__header">
+    <picture class="header__logo">
+        <a href="./index.html">
+            <img class="header__logo-img" src="https://abisulkes.alwaysdata.net/logoPrincipal.svg"
+            alt="Logo Perfect Skin">
+        </a>
+       
+    </picture>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="./index.html">Inicio</a></li>
+            <li class="header__nav-item"><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li class="header__nav-item"><a href="#productos">Productos</a></li>
+            <li class="header__nav-item"><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <form class="header__form">
+        <a href="./inicioSesion.html">
             <button class="header__button header__button--login" type="button">Iniciar sesión</button>
+        </a>
+        <a href="./registro.html">
+            <button class="header__button header__button--register" type="button">Registrarse</button>
+        </a>
+    </form>
 
-            <a href="./registro.html">
-                <button class="header__button header__button--register" type="button">Registrarse</button>
-            </a>
-        </form>
-    </header>
+    <form class="header__form--mobile">
+        <button class="header__button--mobile" type="button" popovertarget="btn-menu"
+            popovertargetaction="toggle"><img src="./icon/menu - nabvar.svg" alt="Menú nabvar"></button>
+    </form>
+    <nav id="btn-menu" popover>
+        <a class="header__nav-link" href="./inicioSesion.html">Iniciar sesión</a>
+        <a class="header__nav-link header__nav--register" href="./registro.html">Registrarse</a>
+    </nav>
+</header>
 
     <!--Sección Registro-->
     <main class="registro">

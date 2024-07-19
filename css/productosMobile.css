@@ -1,5 +1,6 @@
 @media (min-width: 320px) {
-             /*********** Sección Productos **********/
+
+    /*********** Sección Productos **********/
     .productos {
         display: flex;
         flex-direction: column;
@@ -27,6 +28,8 @@
         background-color: var(--fondo-color);
         border-radius: 20px;
         padding: 1.5rem;
+        max-width: 100%;
+        width: 320px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
 
@@ -52,8 +55,9 @@
     }
 
     .productos__imagen {
-        max-width: 100%;
-        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .productos__nombre {
@@ -78,5 +82,24 @@
         border-radius: 20px;
         color: var(--fondo-color);
         font-size: 16px;
+    }
+}
+
+/*********** Adapatacion tablet **********/
+@media (min-width: 576px) {
+    .productos__articulo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .productos__contenedor {
+        margin-top: 1rem;
+        background-color: var(--fondo-color);
+        border-radius: 20px;
+        max-width:calc(100% -1rem);
+        width: 320px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        margin: 1rem;
     }
 }

@@ -47,7 +47,8 @@
 
     /*articulo*/
     .hero__articulo {
-        width: 24%;
+        max-width: 50%;
+        width: 350px;
         height: auto;
         overflow: hidden;
     }

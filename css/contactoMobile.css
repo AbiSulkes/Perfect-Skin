@@ -24,6 +24,9 @@
 
     .contacto__descripcion {
         font-size: 16px;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
     }
 
     .contacto__item {
@@ -79,6 +82,9 @@
     .contacto__formulario-descripcion {
         font-size: 16px;
         margin-bottom: 1rem;
+        max-width: 100%;
+        width: 90%;
+        margin: auto;
     }
 
     .contacto__formulario-email {
@@ -93,6 +99,7 @@
         justify-content: center;
         width: calc(100% - 1rem);
         margin-bottom: 1rem;
+        width: 80%;
     }
 
     .contacto__formulario-etiqueta {
